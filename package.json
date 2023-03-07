@@ -6,5 +6,12 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+
+  "scripts":{
+ "dev": "next",
+ "build": "next build",
+ "start": "next start",
+ "commit": "cz"
   }
 }
