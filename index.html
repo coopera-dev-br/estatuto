@@ -8,12 +8,31 @@
     <link rel="stylesheet" href="./assets/styles/header.css" />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
     <link rel="icon" href="./assets/imgs/cooperadevLogo.png" />
+    <link rel="button" href="./assets/imgs/downloadButton.png" />
     <title>CooperaDev</title>
   </head>
   <body>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+      const downloadButton = document.querySelector('#download-button');
+      downloadButton.addEventListener('click', () => {
+        const link = document.createElement('a');
+        link.href = 'https://docs.google.com/document/d/12XO0fLaN7CUA5Q3ytoES3OthvdzOhAQtLzRjSwH-O_M/export?format=docx';
+        link.download = 'arquivo.doc';
+        link.click();
+});
+});
+    </script>
+
+
     <header>
-      <img src="./assets/imgs/cooperadevLogo.png" />
-      <h1>Estatuto CooperaDev</h1>
+      <div class="logo-container">
+        <img src="./assets/imgs/cooperadevLogo.png" />
+        <h1>Estatuto CooperaDev</h1>
+      </div>
+      <div class="button-container">
+        <button id="download-button">Faça o Download</button>
+      </div>
     </header>
 
     <main>
