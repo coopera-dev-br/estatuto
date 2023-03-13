@@ -1,3 +1,4 @@
+
 h2 {
   font-weight: 700;
   font-size: 22px;
@@ -7,7 +8,9 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
-
+.titulo-artigo{
+  text-align: center;
+}
 h3,
 h4,
 h5,
@@ -34,6 +37,15 @@ main > section > ul {
   flex-direction: column;
   gap: 16px;
 }
+main > section > ul > li > div > h3{
+    gap: 20px;
+} 
+
+
+main > section > ul > li > div{
+  flex-direction: column;
+
+}
 
 main > section > ul > li > ol {
   padding-left: 16px;
@@ -43,9 +55,16 @@ main > section > ul > li > ol {
   gap: 8px;
 }
 
+.artigoa{
+  gap: 24px;
+}
+
+.secoes{
+  padding: 16px;
+}
 .conteinerArtigo {
   display: flex;
-  gap: 8px;
+  gap: 12px;
 }
 
 .conteinerArtigo > h3,
