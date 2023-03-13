@@ -1,0 +1,14 @@
+<section class="secoes">
+        <h2 class="titulo-artigo"></h2>
+
+        <ul>
+          <li>
+            <div class="conteinerArtigo">
+              <h3></h3>
+              <p>
+                
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>

@@ -7,7 +7,9 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
-
+.titulo-artigo {
+  text-align: center;
+}
 h3,
 h4,
 h5,
@@ -35,17 +37,16 @@ main > section > ul {
   gap: 16px;
 }
 
-main > section > ul > li > ol {
-  padding-left: 16px;
-  min-width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.artigoa {
+  gap: 24px;
 }
 
+.secoes {
+  padding: 16px;
+}
 .conteinerArtigo {
   display: flex;
-  gap: 8px;
+  gap: 12px;
 }
 
 .conteinerArtigo > h3,
